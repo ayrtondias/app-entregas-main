@@ -1,0 +1,27 @@
+<ion-content>
+  <div class="black">
+    <div class="imgPerfil">
+    </div>
+    <h2>Nome</h2>
+    <br>
+    <p class="register" [routerLink]="['/endereco']">Endereços</p>
+    <p class="register" [routerLink]="['/pontos']">Pontos de fidelidade</p>
+    <p class="register" [routerLink]="['/informacoes']">Informaçõs de contato</p>
+
+    <p class="register">Exibir nome no pedido
+    <ion-checkbox class="checkbox" slot="exibir"></ion-checkbox></p>
+
+    <p class="register">Notificações
+    <ion-checkbox class="checkbox" slot="notificacoes"></ion-checkbox></p>
+
+    <p class="register">Receber mensagens
+    <ion-checkbox class="checkbox" slot="mensagens"></ion-checkbox></p>
+
+    <p class="topleft" [routerLink]="['/pedidos']">Voltar</p>
+
+
+
+
+  </div>
+
+</ion-content>

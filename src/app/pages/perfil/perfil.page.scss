@@ -1,0 +1,37 @@
+ion-content{
+  .black{
+      background-color: black;
+      background-image: url('/assets/back.png');
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      .imgPerfil{
+            background-image: url('/assets/blank_avatar.jpeg');
+            background-repeat: no-repeat;
+            height: 125px;
+            width: 40vw;
+            background-size: 150px;
+            border-radius: 50%;
+            background-position: center;
+            margin: 30% auto 0 auto;
+      }
+      .register{
+        color: #ffffff;
+        margin-left: 5%;
+        font-size: 16px;
+      }
+      h2{
+        text-align: center;
+      }
+      .checkbox{
+        position: absolute;
+        left: 85%;
+      }
+      .topleft {
+        position: absolute;
+        top: 10px;
+        left: 16px;
+        font-size: 12px;
+      }
+  }
+}
