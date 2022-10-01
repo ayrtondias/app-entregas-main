@@ -1,9 +1,49 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Burger Tech</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <ion-button (click)="sair()" color="danger" size="small">Sair</ion-button>
+  <div class="black">
+    <div class="logo">
+    </div>
+    <ion-searchbar placeholder="Pesquisar"></ion-searchbar>
+    <ion-label>Recomendados</ion-label>
+    <ion-slides class="slide">
+      <ion-slide>
+        <ion-img src="/assets/slide.jpg"></ion-img>
+      </ion-slide>
+      <ion-slide>
+        <ion-img src="/assets/slide.jpg"></ion-img>
+      </ion-slide>
+      <ion-slide>
+        <ion-img src="/assets/slide.jpg"></ion-img>
+      </ion-slide>
+    </ion-slides>
+
+    <ion-slides>
+      <ion-slide>
+        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
+        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
+        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
+        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
+      </ion-slide>
+      <ion-slide>
+        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
+        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
+        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
+        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
+      </ion-slide>
+    </ion-slides>
+
+    <ion-grid>
+      <div class="imagem">
+        <img src="/assets/promocao1.jpg"/>
+        <img src="/assets/promocao2.jpg"/>
+        <img src="/assets/promocao1.jpg"/>
+        <img src="/assets/promocao2.jpg"/>
+        <img src="/assets/promocao1.jpg"/>
+        <img src="/assets/promocao2.jpg"/>
+      </div>
+    </ion-grid>
+
+
+
+  </div>
+
 </ion-content>
