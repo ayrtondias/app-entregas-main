@@ -1,0 +1,52 @@
+ion-content{
+
+  .black{
+      background-color: black;
+      background-image: url('/assets/back.png');
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      .logo{
+          background-image: url('/assets/logo.png');
+          background-repeat: no-repeat;
+          padding: 20%;
+          background-position: center;
+          background-size: 70px;
+      }
+      .box{
+        display: block;
+        background-color: #80808090;
+        margin-left: 8%;
+        border-radius: 10px;
+        width:80%;
+        height: 20%;
+      }
+      .box img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: 5%;
+        margin-left: 5%;
+      }
+      .infoUse{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 15px;
+        margin-left: 5px;
+        font-size: 8px;
+      }
+      .pedido{
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 10px;
+      }
+      .pedido button{
+        margin-left: 30%;
+        background-color: yellow;
+        color: black;
+        font-size: 12px;
+        border-radius: 20px;
+      }
+
+  }
+}

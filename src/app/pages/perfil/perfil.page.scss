@@ -9,7 +9,7 @@ ion-content{
             background-image: url('/assets/blank_avatar.jpeg');
             background-repeat: no-repeat;
             height: 125px;
-            width: 40vw;
+            width: 45vw;
             background-size: 150px;
             border-radius: 50%;
             background-position: center;
@@ -32,6 +32,10 @@ ion-content{
         top: 10px;
         left: 16px;
         font-size: 12px;
+      }
+      .botao{
+        margin-left: 40%;
+        margin-right: 50%;
       }
   }
 }

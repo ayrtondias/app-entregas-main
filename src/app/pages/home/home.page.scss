@@ -1,5 +1,5 @@
 ion-content{
-  margin-left: 5%;
+
   .black{
       background-color: black;
       background-image: url('/assets/back.png');
@@ -11,21 +11,27 @@ ion-content{
           background-repeat: no-repeat;
           padding: 20%;
           background-position: center;
-          background-size: 90px;
+          background-size: 70px;
       }
       .slide{
-        display: flex;
-        flex-direction: column;
-        margin-right: 10%;
-        width: 85%;
+        margin-left: 10px;
+        width: 90%;
+        border-radius: 20px;
+      }
+      .slide input{
+        width: 90%;
+        height: 40%;
       }
       .slide2{
-        display: flex;
-        flex-direction: column;
-        padding: 8px;
-        width: 25%;
+        margin-left: 5%;
+        width: 90%;
       }
-      .imagem img{
+      .slide2 input{
+        padding: 10px;
+        width: 30%;
+        height: 30%;
+      }
+      .imagem input{
         max-width: 50%;
         padding: 5px;
         border-radius: 20px;

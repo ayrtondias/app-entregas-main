@@ -3,42 +3,49 @@
     <div class="logo">
     </div>
     <ion-searchbar placeholder="Pesquisar"></ion-searchbar>
-    <ion-label>Recomendados</ion-label>
-    <ion-slides class="slide">
-      <ion-slide>
-        <ion-img src="/assets/slide.jpg"></ion-img>
-      </ion-slide>
-      <ion-slide>
-        <ion-img src="/assets/slide.jpg"></ion-img>
-      </ion-slide>
-      <ion-slide>
-        <ion-img src="/assets/slide.jpg"></ion-img>
-      </ion-slide>
-    </ion-slides>
+    <ion-label class="texte">Recomendados</ion-label>
+    <div class="slide">
+      <ion-slides>
+        <ion-slide>
+          <input type="image" src="/assets/slide.jpg" (click)="presentAlert()"/>
+        </ion-slide>
 
-    <ion-slides>
-      <ion-slide>
-        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
-        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
-        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
-        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
-      </ion-slide>
-      <ion-slide>
-        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
-        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
-        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
-        <ion-img class="slide2" src="/assets/hamburguer.jpg"></ion-img>
-      </ion-slide>
-    </ion-slides>
+        <ion-slide>
+          <input type="image" src="/assets/slide.jpg" (click)="presentAlert()"/>
+        </ion-slide>
+        <ion-slide>
+          <input type="image" src="/assets/slide.jpg" (click)="presentAlert()"/>
+        </ion-slide>
+      </ion-slides>
+    </div>
+    <div class="slide2">
+      <ion-slides>
+        <ion-slide>
+          <input type="image" src="/assets/hamburguer.jpg" (click)="presentAlert()"/>
+          <input type="image" src="/assets/hamburguer.jpg" (click)="presentAlert()"/>
+          <input type="image" src="/assets/hamburguer.jpg" (click)="presentAlert()"/>
+        </ion-slide>
+        <ion-slide>
+          <input type="image" src="/assets/hamburguer.jpg" (click)="presentAlert()"/>
+          <input type="image" src="/assets/hamburguer.jpg" (click)="presentAlert()"/>
+          <input type="image" src="/assets/hamburguer.jpg" (click)="presentAlert()"/>
+        </ion-slide>
+        <ion-slide>
+          <input type="image" src="/assets/hamburguer.jpg" (click)="presentAlert()"/>
+          <input type="image" src="/assets/hamburguer.jpg" (click)="presentAlert()"/>
+          <input type="image" src="/assets/hamburguer.jpg" (click)="presentAlert()"/>
+        </ion-slide>
+      </ion-slides>
+    </div>
 
     <ion-grid>
       <div class="imagem">
-        <img src="/assets/promocao1.jpg"/>
-        <img src="/assets/promocao2.jpg"/>
-        <img src="/assets/promocao1.jpg"/>
-        <img src="/assets/promocao2.jpg"/>
-        <img src="/assets/promocao1.jpg"/>
-        <img src="/assets/promocao2.jpg"/>
+        <input type="image" src="/assets/promocao1.jpg" (click)="presentAlert()"/>
+        <input type="image" src="/assets/promocao2.jpg" (click)="presentAlert()"/>
+        <input type="image" src="/assets/promocao2.jpg" (click)="presentAlert()"/>
+        <input type="image" src="/assets/promocao1.jpg" (click)="presentAlert()"/>
+        <input type="image" src="/assets/promocao1.jpg" (click)="presentAlert()"/>
+        <input type="image" src="/assets/promocao2.jpg" (click)="presentAlert()"/>
       </div>
     </ion-grid>
 
